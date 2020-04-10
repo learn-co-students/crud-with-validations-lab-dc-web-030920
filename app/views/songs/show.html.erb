@@ -1,0 +1,12 @@
+<h1> Song Show Page</h1>
+
+<div>Title: <%= @song.title %> </div>
+<div>Released: <%= @song.released %> </div>
+<div>Release year: <%= @song.release_year %> </div>
+<div>Artist: <%= @song.artist_name %> </div>
+<div>Genre: <%= @song.genre %> </div>
+
+
+<p>MENU:</p>
+<%= link_to "Edit this Song", edit_song_path %>
+<%= link_to "Return to Song Index", songs_path %>
